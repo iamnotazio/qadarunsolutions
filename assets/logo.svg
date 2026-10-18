@@ -1,0 +1,8 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 64">
+  <rect width="56" height="56" x="4" y="4" rx="14" fill="#365CF5"/>
+  <path d="M39 16a18 18 0 1 0 2 25l-8-5a9 9 0 1 1 0-12l8-5a18 18 0 0 0-2-3Z" fill="#fff"/>
+  <path d="M31 27h14v7H31z" fill="#fff"/>
+  <text x="72" y="29" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#101828">Qadarun</text>
+  <text x="72" y="47" font-family="Arial, sans-serif" font-size="12" letter-spacing="2" fill="#667085">SOLUTIONS</text>
+</svg>
