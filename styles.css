@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
 
 :root {
-  --navy: #101828;
-  --blue: #365cf5;
-  --blue-dark: #2446d8;
-  --soft-blue: #eaf0ff;
-  --purple: #8065e8;
-  --green: #20a879;
-  --white: #ffffff;
-  --background: #f7f8fc;
-  --text: #182230;
-  --muted: #667085;
-  --border: #e4e7ec;
+  --navy: #101820;
+  --blue: #b99a65;
+  --blue-dark: #967747;
+  --soft-blue: #e9e2d5;
+  --purple: #263b36;
+  --green: #526b5d;
+  --white: #f4f0e8;
+  --background: #f4f0e8;
+  --text: #202720;
+  --muted: #716e65;
+  --border: #ded5c5;
   --radius: 18px;
-  --shadow: 0 20px 60px rgba(16, 24, 40, 0.08);
+  --shadow: 0 20px 60px rgba(16, 24, 32, 0.10);
 }
 
 * {
