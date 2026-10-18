@@ -1614,18 +1614,100 @@ h3 {
   }
 }
 
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    scroll-behavior: auto !important;
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-  }
 
-  .reveal {
-    opacity: 1;
-    transform: none;
+
+/* QADARUN SOLUTIONS — PREMIUM COLOUR FINISH */
+
+.site-header {
+  background: rgba(244, 240, 232, 0.96);
+  border-bottom-color: #ded5c5;
+}
+
+.nav-links a {
+  color: #45483f;
+}
+
+.hero {
+  background:
+    radial-gradient(ellipse at 80% 35%, rgba(185, 154, 101, 0.13), transparent 40%),
+    linear-gradient(180deg, #f4f0e8 0%, #ebe4d8 100%);
+}
+
+.hero-visual .visual-glow {
+  background: radial-gradient(circle, rgba(185, 154, 101, 0.22), transparent 70%);
+}
+
+.orbit,
+.hero-visual .orbit {
+  border-color: rgba(185, 154, 101, 0.25);
+}
+
+.floating-card {
+  background: rgba(250, 247, 241, 0.98);
+  border-color: #ded5c5;
+}
+
+.button-primary {
+  color: #f4f0e8;
+  background: #263b36;
+  box-shadow: 0 8px 20px rgba(38, 59, 54, 0.16);
+}
+
+.button-primary:hover {
+  background: #182923;
+}
+
+.button-secondary {
+  background: #f4f0e8;
+  border-color: #c9b58f;
+}
+
+.button-secondary:hover {
+  background: #ebe4d8;
+  border-color: #b99a65;
+}
+
+.service-card,
+.feature-window,
+.visual-center {
+  background: #faf7f1;
+  border-color: #ded5c5;
+}
+
+.service-card:hover {
+  border-color: #b99a65;
+}
+
+.icon-purple,
+.mini-purple,
+.strategy-icon.purple {
+  color: #263b36;
+  background: #e4e9e1;
+}
+
+.icon-green,
+.mini-green,
+.strategy-icon.green {
+  color: #263b36;
+  background: #e4e9e1;
+}
+
+.creator-quote-card {
+  background: linear-gradient(145deg, #e9e2d5, #f8f4ec 75%);
+  border-color: #ded5c5;
+}
+
+.feature-decoration {
+  background: #e4e9e1;
+}
+
+.button,
+.nav-links .nav-cta {
+  border-radius: 6px;
+}
+
+@media (max-width: 700px) {
+  .site-header {
+    background: #f4f0e8;
   }
 }
